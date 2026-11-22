@@ -1,0 +1,108 @@
+html {
+        /* Tamaño base: 1rem = 16px */
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(236, 203, 232);
+
+    /* Regla de 3: (1000px body / 1400px html) * 100 = 71.42857142857143% */
+    width: 71.42857142857143%;
+
+    /* Regla de 3: (40px margin / 1400px html) * 100 = 2.857142857142857% */
+    margin: 2.857142857142857%;
+}
+
+/* Barra de navegación usada en las pantallas que la muestran. */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background-color: rgb(154, 223, 208);
+    border: 4px solid rgb(29, 133, 124);
+    width: 90%;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+/* Caja principal que contiene el formulario o la tabla del horario. */
+.contenedor {
+    background-color: rgb(149, 211, 180);
+
+    /* Regla de 3: (900px div / 1000px body) * 100 = 90% */
+    width: 90%;
+
+    height: 650px;
+
+    border: 4px solid rgb(29, 133, 124);
+
+    /* Regla de 3: (10px padding / 1000px body) * 100 = 1% */
+    padding: 1%;
+
+    /* Regla de 3: (50px margin-left / 1000px body) * 100 = 5% */
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+h1,
+h2 {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2rem; /* 32px / 16 = 2rem */
+}
+
+h2 {
+    font-size: 1.5rem; /* 24px / 16 = 1.5rem */
+}
+
+/* Tabla semanal y bordes de sus celdas. */
+table {
+    border-collapse: collapse;
+
+    /* La tabla ocupa el 100% del ancho disponible */
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid rgb(29, 133, 124);
+
+    /* Regla de 3: (4px padding / 800px div) * 100 = 0.5% */
+    padding: 0.5%;
+
+    font-size: 1rem; /* 16px / 16 = 1rem */
+}
+
+/* Controles de selección y botón para guardar. */
+select {
+    /* Regla de 3: (7px padding / 800px div) * 100 = 0.875% */
+    padding: 0.875%;
+}
+
+#submit {
+    /* Regla de 3: (100px width / 800px div) * 100 = 12.5% */
+    width: 12.5%;
+
+    height: 50px;
+
+    background-color: rgb(195, 212, 226);
+}

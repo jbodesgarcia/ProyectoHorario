@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(236, 203, 232);
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+/* Caja exterior de las pantallas de sesión. */
+#padre {
+    position: absolute;
+    top: 170px;
+    /* Regla de 3: (450px izquierda / 1400px ventana) * 100 = 32.142857142857146% */
+    left: 32.142857142857146%;
+    /* Regla de 3: (500px ancho / 1400px ventana) * 100 = 35.714285714285715% */
+    width: 35.714285714285715%;
+    height: 390px;
+    /* Regla de 3: (25px relleno / 1400px ventana) * 100 = 1.7857142857142856% */
+    padding: 1.7857142857142856%;
+    box-sizing: border-box;
+    background-color: rgb(154, 223, 208);
+    border: 4px solid rgb(29, 133, 124);
+    text-align: center;
+}
+
+#padre h1 {
+    /* Regla de 3: (5px arriba / 442px caja padre) * 100 = 1.1312217194570136% */
+    /* Regla de 3: (25px abajo / 442px caja padre) * 100 = 5.656108597285068% */
+    margin: 1.1312217194570136% 0 5.656108597285068%;
+    font-size: 2rem;
+}
+
+/* Caja interior que contiene el formulario o las opciones de confirmación. */
+#hijo {
+    /* La caja padre tiene 442px de contenido: 500px menos relleno y bordes. */
+    /* Regla de 3: (400px ancho / 442px contenido padre) * 100 = 90.49773755656109% */
+    width: 90.49773755656109%;
+    min-height: 190px;
+    margin: 0 auto;
+    /* Regla de 3: (25px relleno / 442px contenido padre) * 100 = 5.656108597285068% */
+    padding: 5.656108597285068%;
+    box-sizing: border-box;
+    background-color: rgb(154, 199, 189);
+}
+
+#hijo h2 {
+    /* Regla de 3: (20px margen inferior / 350px contenido hijo) * 100 = 5.714285714285714% */
+    margin: 0 0 5.714285714285714%;
+    font-size: 1.5rem;
+}
+
+/* Etiquetas y campos del formulario de acceso. */
+label {
+    display: block;
+    /* Regla de 3: (10px arriba / 350px contenido hijo) * 100 = 2.857142857142857% */
+    /* Regla de 3: (5px abajo / 350px contenido hijo) * 100 = 1.4285714285714286% */
+    margin: 2.857142857142857% 0 1.4285714285714286%;
+}
+
+input[type="text"],
+input[type="password"] {
+    /* Regla de 3: (220px ancho / 350px contenido hijo) * 100 = 62.857142857142854% */
+    width: 62.857142857142854%;
+    height: 30px;
+    /* Regla de 3: (5px relleno / 350px contenido hijo) * 100 = 1.4285714285714286% */
+    padding: 1.4285714285714286%;
+}
+
+/* Botones y enlaces con el aspecto común de la aplicación. */
+input[type="submit"],
+.boton {
+    display: inline-block;
+    min-width: 130px;
+    height: 50px;
+    /* Regla de 3: (20px arriba / 350px contenido hijo) * 100 = 5.714285714285714% */
+    /* Regla de 3: (5px horizontal / 350px contenido hijo) * 100 = 1.4285714285714286% */
+    margin: 5.714285714285714% 1.4285714285714286% 0;
+    /* Regla de 3: (10px horizontal / 350px contenido hijo) * 100 = 2.857142857142857% */
+    padding: 0 2.857142857142857%;
+    box-sizing: border-box;
+    background-color: rgb(195, 212, 226);
+    border: 2px outset gray;
+    color: black;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 46px;
+}
+
+.boton:hover {
+    background-color: rgb(176, 199, 216);
+}

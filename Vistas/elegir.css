@@ -1,0 +1,112 @@
+
+
+body{
+    /* Regla de 3: (1000px ancho / 1400px html) * 100 = 71.42857142857143% */
+    width: 71.42857142857143%;
+
+    /* Regla de 3: (50px margen / 1400px html) * 100 = 3.571428571428571% */
+    margin: 3.571428571428571%;
+    background-color: rgb(236, 203, 232);
+
+}
+
+/* Barra de navegación para cambiar entre las operaciones de horario. */
+nav{
+    position: absolute;
+    top: 20px;
+    /* Regla de 3: (70px izquierda / 1400px ventana) * 100 = 5% */
+    left: 5%;
+    width: 90%;
+
+    /* Regla de 3: (20px margen inferior / 1400px ventana) * 100 = 1.4285714285714286% */
+    margin-bottom: 1.4285714285714286%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgb(154, 223, 208);
+    border: 4px solid rgb(29, 133, 124);
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    /* El contenido del nav mide 1224px: 1260px de ancho menos rellenos y bordes. */
+    /* Regla de 3: (15px margen horizontal / 1224px nav) * 100 = 1.2254901960784315% */
+    margin: 0 1.2254901960784315%;
+}
+
+nav a{
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+h1,
+h2{
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    text-align: center;
+    margin-left: 0;
+}
+
+
+/* Caja principal que contiene el título, el saludo y la selección. */
+#padre{
+    /* Regla de 3: (650px ancho / 1400px ventana) * 100 = 46.42857142857143% */
+    width: 46.42857142857143%;
+    height: 460px;
+    position: absolute;
+    background-color: rgb(154, 223, 208);
+    border: 4px solid rgb(29, 133, 124);
+    top: 170px;
+    /* Regla de 3: (375px izquierda / 1400px ventana) * 100 = 26.785714285714285% */
+    left: 26.785714285714285%;
+}
+
+/* Caja interior que contiene el formulario de selección de clase. */
+#hijo{
+    background-color: rgb(154, 199, 189);
+    /* Regla de 3: (500px ancho / 650px caja padre) * 100 = 76.92307692307693% */
+    width: 76.92307692307693%;
+    height: 250px;
+    /* Regla de 3: (75px margen / 650px caja padre) * 100 = 11.538461538461538% */
+    margin: 11.538461538461538% 0 11.538461538461538% 11.538461538461538%;
+    text-align: center;
+}
+
+#textoHijo{
+    margin-left: 0;
+}
+
+
+/* Tamaño y posición del selector y del botón de envío. */
+select{
+    display: block;
+    /* Regla de 3: (90px ancho / 500px caja hija) * 100 = 18% */
+    width: 18%;
+    height: 30px;
+    /* Regla de 3: (12px margen inferior / 500px caja hija) * 100 = 2.4% */
+    margin: 0 auto 2.4%;
+}
+
+#submit{
+    display: block;
+    /* Regla de 3: (180px ancho / 500px caja hija) * 100 = 36% */
+    width: 36%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgb(195, 212, 226);
+}
+
+#cerrarSesion{
+    display: block;
+    /* Regla de 3: (180px ancho / 500px caja hija) * 100 = 36% */
+    width: 36%;
+    /* Regla de 3: (12px margen superior / 500px caja hija) * 100 = 2.4% */
+    margin: 2.4% auto 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
