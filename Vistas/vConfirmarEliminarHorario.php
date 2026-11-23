@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Confirmación previa de borrado para la clase indicada. -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">

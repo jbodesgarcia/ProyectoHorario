@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Muestra el horario consultado; las celdas ocupadas usan el color de la asignatura. -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Selección de una clase con horario para borrar todas sus filas de horario. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

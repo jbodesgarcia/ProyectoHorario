@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Selección de una clase con horario para abrir su formulario de modificación. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

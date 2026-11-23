@@ -1,7 +1,7 @@
 <?php
     // Punto de entrada de la aplicación: el navegador siempre llega a este archivo.
     // Si no se indica una ruta, se muestra el formulario de inicio de sesión.
-    $controlador = 'CUsuario';
+    $controlador = 'cUsuario';
     $metodo = 'mostrarFormulario';
 
     // El controlador y el método se reciben en la URL como parámetros GET.

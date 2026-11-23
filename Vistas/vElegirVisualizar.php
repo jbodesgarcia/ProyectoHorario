@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Selección de una clase que ya tiene horario para poder consultarlo. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

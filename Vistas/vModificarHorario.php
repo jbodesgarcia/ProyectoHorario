@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Formulario con los valores actuales para modificar el horario de una clase. -->
 <html lang="es">
 <head>
     <meta charset="UTF-8">

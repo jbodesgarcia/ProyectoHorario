@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Selección de una clase sin horario para crear uno nuevo. -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

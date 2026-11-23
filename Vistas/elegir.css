@@ -21,6 +21,7 @@ nav{
     /* Regla de 3: (20px margen inferior / 1400px ventana) * 100 = 1.4285714285714286% */
     margin-bottom: 1.4285714285714286%;
     padding: 1%;
+    /* box-sizing: border-box incluye el padding y border dentro del width para que la caja no crezca de más ni se descuadre. Añadido para practicar. */
     box-sizing: border-box;
     background-color: rgb(154, 223, 208);
     border: 4px solid rgb(29, 133, 124);
@@ -44,8 +45,7 @@ nav a{
     font-family: 'Trebuchet MS', Verdana, sans-serif;
 }
 
-h1,
-h2{
+h1,h2{
     font-family: 'Trebuchet MS', Verdana, sans-serif;
     text-align: center;
     margin-left: 0;
