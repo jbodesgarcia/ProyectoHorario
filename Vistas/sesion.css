@@ -15,7 +15,7 @@ body {
     left: 32.142857142857146%;
     /* Regla de 3: (500px ancho / 1400px ventana) * 100 = 35.714285714285715% */
     width: 35.714285714285715%;
-    height: 390px;
+    height: 500px;
     /* Regla de 3: (25px relleno / 1400px ventana) * 100 = 1.7857142857142856% */
     padding: 1.7857142857142856%;
     box-sizing: border-box;
